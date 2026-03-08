@@ -1,94 +1,94 @@
-# SeuNome.dev — Landing Page Portfólio Freelancer
+# Local Business Landing Page
 
-Landing page de alta conversão para portfólio de desenvolvimento web freelancer em Curitiba. Construída com Next.js 15, Tailwind CSS v4 e otimizada para deploy na Vercel.
+<!-- PROJECT_TITLE_START -->
 
-## Stack
+Local Business Landing Page
 
-- **Framework:** Next.js 15 (App Router)
-- **Estilo:** Tailwind CSS v4
-- **Linguagem:** TypeScript
-- **Formulário:** React Hook Form + Zod
-- **Ícones:** Lucide React
-- **Deploy:** Vercel
+<!-- PROJECT_TITLE_END -->
 
-## Seções da Landing Page
+<!-- PROJECT_TAG_START -->
 
-1. **Hero** — Headline, subtítulo, CTAs e social proof
-2. **Stats** — Números de projetos entregues e métricas
-3. **Serviços** — Cards com os diferenciais do serviço
-4. **Portfólio** — Projetos com métricas reais
-5. **Processo** — Como funciona em 4 etapas
-6. **Preços** — 3 planos com destaque no mais vendido
-7. **Depoimentos** — Avaliações de clientes
-8. **Contato** — Formulário + info de contato
-9. **WhatsApp** — Botão flutuante com pulse animation
+Template de landing page profissional para negócios locais — clínicas, escritórios, imobiliárias e qualquer prestador de serviços. Desenvolvido para converter visitantes em clientes com seções estratégicas, SEO local otimizado e design moderno.
 
-## Como usar
+<!-- PROJECT_TAG_END -->
 
-### 1. Instalar dependências
+---
 
-```bash
-npm install
-```
+## Preview
 
-### 2. Configurar variáveis de ambiente
+![Preview do projeto](screenshots/preview.png)
 
-```bash
-cp .env.example .env.local
-```
+---
 
-Edite `.env.local`:
+## Tecnologias
 
-```env
-NEXT_PUBLIC_SITE_URL=https://seusite.com.br
-```
+<!-- PROJECT_TECH_START -->
 
-### 3. Personalizar conteúdo
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
-Arquivos principais para editar:
+<!-- PROJECT_TECH_END -->
 
-| Arquivo                                  | O que personalizar                      |
-| ---------------------------------------- | --------------------------------------- |
-| `src/app/layout.tsx`                     | Nome, título, descrição, palavras-chave |
-| `src/components/Header.tsx`              | Logo e nome do site                     |
-| `src/components/Hero.tsx`                | Headline e subtítulo                    |
-| `src/components/Services.tsx`            | Serviços oferecidos                     |
-| `src/components/Portfolio.tsx`           | Projetos e métricas reais               |
-| `src/components/Pricing.tsx`             | Planos e preços                         |
-| `src/components/Testimonials.tsx`        | Depoimentos reais                       |
-| `src/components/Contact.tsx`             | Telefone, e-mail, localização           |
-| `src/components/LeadForm.tsx`            | Número do WhatsApp (`WHATSAPP_NUMBER`)  |
-| `src/components/WhatsAppButton.tsx`      | Número do WhatsApp (`WHATSAPP_NUMBER`)  |
-| `src/components/LocalBusinessSchema.tsx` | Dados do schema.org                     |
-| `src/components/Footer.tsx`              | Links e copyright                       |
+---
 
-### 4. Rodar localmente
+## Destaques
 
-```bash
-npm run dev
-```
+<!-- PROJECT_HIGHLIGHTS_START -->
 
-Acesse [http://localhost:3000](http://localhost:3000)
+✅ Estrutura completa de landing page com Hero, Serviços, Portfólio, Processo, Preços, Depoimentos e Contato
+✅ SEO local otimizado com `LocalBusinessSchema` (JSON-LD), `sitemap.ts` e `robots.ts` nativos do Next.js
+✅ Botão flutuante de WhatsApp para conversão direta via chat
+✅ Design responsivo e acessível com Tailwind CSS e animações sutis
+✅ 100% tipado com TypeScript — componentes reutilizáveis e fáceis de customizar
+✅ Pronto para deploy na Vercel com `vercel.json` configurado
 
-### 5. Build de produção
+<!-- PROJECT_HIGHLIGHTS_END -->
 
-```bash
-npm run build
-npm start
-```
+---
 
-## Deploy na Vercel
+## Demo
 
-1. Faça push para o GitHub
-2. Acesse [vercel.com/new](https://vercel.com/new) e importe o repositório
-3. Adicione a variável de ambiente `NEXT_PUBLIC_SITE_URL` com a URL do seu domínio
-4. Clique em **Deploy**
+<!-- PROJECT_DEMO_START -->
 
-## SEO incluído
+https://local-business-landing.vercel.app/
 
-- Metadata completo (Open Graph, Twitter Card)
-- `sitemap.xml` gerado automaticamente
-- `robots.txt` configurado
-- Schema.org `LocalBusiness` para SEO local
-- Headers de segurança via `vercel.json` e `next.config.ts`
-- Fontes com `display: swap` para melhor CLS
+<!-- PROJECT_DEMO_END -->
+
+---
+
+## Sobre o Projeto
+
+Este template foi criado como referência para agências e freelancers que atendem negócios locais. O objetivo é oferecer uma base sólida e profissional que pode ser facilmente personalizada com as informações de qualquer cliente — nome da empresa, serviços, preços, depoimentos e dados de contato.
+
+### Estrutura de seções
+
+| Seção            | Finalidade                                         |
+| ---------------- | -------------------------------------------------- |
+| **Header**       | Navegação fixa com links âncora para cada seção    |
+| **Hero**         | Headline principal, subtítulo e CTAs de conversão  |
+| **Stats**        | Números e credenciais da empresa                   |
+| **Services**     | Cards de serviços oferecidos                       |
+| **Portfolio**    | Galeria de projetos ou casos de sucesso            |
+| **Process**      | Passo a passo de como funciona a contratação       |
+| **Pricing**      | Tabela de planos com destaque no plano recomendado |
+| **Testimonials** | Depoimentos de clientes                            |
+| **Contact**      | Formulário de contato integrado                    |
+| **Footer**       | Informações finais e links úteis                   |
+
+### SEO Local
+
+O projeto inclui o componente `LocalBusinessSchema` que injeta dados estruturados no formato JSON-LD, melhorando a presença do negócio no Google Maps e nos resultados de busca local. Combinado com o `sitemap.ts` e `robots.ts` gerados automaticamente pelo Next.js App Router, a página está pronta para indexação eficiente.
+
+---
+
+## Repositório
+
+[github.com/luiznascimentodev/local-business-landing](https://github.com/luiznascimentodev/local-business-landing)
+
+---
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
