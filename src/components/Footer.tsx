@@ -50,11 +50,7 @@ export function Footer() {
           <p className="text-slate-600">
             &copy; {YEAR} NegócioPro — Todos os direitos reservados
           </p>
-          <p className="flex items-center gap-1.5 text-slate-600">
-            Feito com{" "}
-            <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" /> no
-            Brasil
-          </p>
+          
         </div>
       </div>
     </footer>
