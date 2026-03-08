@@ -16,7 +16,7 @@ Template de landing page profissional para negócios locais — clínicas, escri
 
 ## Preview
 
-![Preview do projeto](public/main.png)
+![Preview do projeto](main.png)
 
 ---
 
